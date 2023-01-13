@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  in-game-services-api:
+    image: ${DOCKER_REGISTRY-}in-game-services
+    depends_on:
+    - db
+    build:
+      context: .
+      dockerfile: InGameServices.Api/Dockerfile
+    environment:
+      - ConnectionStrings__MySqlConnectionString=Server=db;Port=3306;Database=in-game-services-db;Uid=admin;Pwd=544aa861afe3fa07fec3f3e5de6adf4f
+    ports:
+      - "5000:80"
+  db:
+    image: mysql:latest
+    container_name: in-game-services-db
+    command: --default-authentication-plugin=mysql_native_password
+    restart: unless-stopped
+    environment:
+      MYSQL_USER: admin
+      MYSQL_ROOT_PASSWORD: 544aa861afe3fa07fec3f3e5de6adf4f
+      MYSQL_PASSWORD: 544aa861afe3fa07fec3f3e5de6adf4f
+      MYSQL_DATABASE: in-game-services-db
+    volumes:
+      - my-db:/var/lib/mysql
+    ports:
+      - '3306:3306'
+
+volumes:
+  my-db:

@@ -1,0 +1,15 @@
+/home/carlos/Projects/InGameServices/InGameServices.Helpers/bin/Debug/net7.0/InGameServices.Helpers.deps.json
+/home/carlos/Projects/InGameServices/InGameServices.Helpers/bin/Debug/net7.0/InGameServices.Helpers.dll
+/home/carlos/Projects/InGameServices/InGameServices.Helpers/bin/Debug/net7.0/InGameServices.Helpers.pdb
+/home/carlos/Projects/InGameServices/InGameServices.Helpers/bin/Debug/net7.0/InGameServices.Data.dll
+/home/carlos/Projects/InGameServices/InGameServices.Helpers/bin/Debug/net7.0/InGameServices.Data.pdb
+/home/carlos/Projects/InGameServices/InGameServices.Helpers/obj/Debug/net7.0/InGameServices.Helpers.csproj.AssemblyReference.cache
+/home/carlos/Projects/InGameServices/InGameServices.Helpers/obj/Debug/net7.0/InGameServices.Helpers.GeneratedMSBuildEditorConfig.editorconfig
+/home/carlos/Projects/InGameServices/InGameServices.Helpers/obj/Debug/net7.0/InGameServices.Helpers.AssemblyInfoInputs.cache
+/home/carlos/Projects/InGameServices/InGameServices.Helpers/obj/Debug/net7.0/InGameServices.Helpers.AssemblyInfo.cs
+/home/carlos/Projects/InGameServices/InGameServices.Helpers/obj/Debug/net7.0/InGameServices.Helpers.csproj.CoreCompileInputs.cache
+/home/carlos/Projects/InGameServices/InGameServices.Helpers/obj/Debug/net7.0/InGameServices.Helpers.csproj.CopyComplete
+/home/carlos/Projects/InGameServices/InGameServices.Helpers/obj/Debug/net7.0/InGameServices.Helpers.dll
+/home/carlos/Projects/InGameServices/InGameServices.Helpers/obj/Debug/net7.0/refint/InGameServices.Helpers.dll
+/home/carlos/Projects/InGameServices/InGameServices.Helpers/obj/Debug/net7.0/InGameServices.Helpers.pdb
+/home/carlos/Projects/InGameServices/InGameServices.Helpers/obj/Debug/net7.0/ref/InGameServices.Helpers.dll

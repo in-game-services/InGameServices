@@ -1,0 +1,358 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/carlos/Projects/InGameServices/InGameServices.Api/InGameServices.Api.csproj": {}
+  },
+  "projects": {
+    "/home/carlos/Projects/InGameServices/InGameServices.Api/InGameServices.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/carlos/Projects/InGameServices/InGameServices.Api/InGameServices.Api.csproj",
+        "projectName": "InGameServices.Api",
+        "projectPath": "/home/carlos/Projects/InGameServices/InGameServices.Api/InGameServices.Api.csproj",
+        "packagesPath": "/home/carlos/.nuget/packages/",
+        "outputPath": "/home/carlos/Projects/InGameServices/InGameServices.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/carlos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/carlos/Projects/InGameServices/InGameServices.Application/InGameServices.Application.csproj": {
+                "projectPath": "/home/carlos/Projects/InGameServices/InGameServices.Application/InGameServices.Application.csproj"
+              },
+              "/home/carlos/Projects/InGameServices/InGameServices.Infrastructure/InGameServices.Infrastructure.csproj": {
+                "projectPath": "/home/carlos/Projects/InGameServices/InGameServices.Infrastructure/InGameServices.Infrastructure.csproj"
+              },
+              "/home/carlos/Projects/InGameServices/InGameServices.Models/InGameServices.Models.csproj": {
+                "projectPath": "/home/carlos/Projects/InGameServices/InGameServices.Models/InGameServices.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0-alpha.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/carlos/Projects/InGameServices/InGameServices.Application/InGameServices.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/carlos/Projects/InGameServices/InGameServices.Application/InGameServices.Application.csproj",
+        "projectName": "InGameServices.Application",
+        "projectPath": "/home/carlos/Projects/InGameServices/InGameServices.Application/InGameServices.Application.csproj",
+        "packagesPath": "/home/carlos/.nuget/packages/",
+        "outputPath": "/home/carlos/Projects/InGameServices/InGameServices.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/carlos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/carlos/Projects/InGameServices/InGameServices.Data/InGameServices.Data.csproj": {
+                "projectPath": "/home/carlos/Projects/InGameServices/InGameServices.Data/InGameServices.Data.csproj"
+              },
+              "/home/carlos/Projects/InGameServices/InGameServices.Models/InGameServices.Models.csproj": {
+                "projectPath": "/home/carlos/Projects/InGameServices/InGameServices.Models/InGameServices.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.25.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.25.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/carlos/Projects/InGameServices/InGameServices.Data/InGameServices.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/carlos/Projects/InGameServices/InGameServices.Data/InGameServices.Data.csproj",
+        "projectName": "InGameServices.Data",
+        "projectPath": "/home/carlos/Projects/InGameServices/InGameServices.Data/InGameServices.Data.csproj",
+        "packagesPath": "/home/carlos/.nuget/packages/",
+        "outputPath": "/home/carlos/Projects/InGameServices/InGameServices.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/carlos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0-alpha.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/carlos/Projects/InGameServices/InGameServices.Infrastructure/InGameServices.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/carlos/Projects/InGameServices/InGameServices.Infrastructure/InGameServices.Infrastructure.csproj",
+        "projectName": "InGameServices.Infrastructure",
+        "projectPath": "/home/carlos/Projects/InGameServices/InGameServices.Infrastructure/InGameServices.Infrastructure.csproj",
+        "packagesPath": "/home/carlos/.nuget/packages/",
+        "outputPath": "/home/carlos/Projects/InGameServices/InGameServices.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/carlos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/carlos/Projects/InGameServices/InGameServices.Models/InGameServices.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/carlos/Projects/InGameServices/InGameServices.Models/InGameServices.Models.csproj",
+        "projectName": "InGameServices.Models",
+        "projectPath": "/home/carlos/Projects/InGameServices/InGameServices.Models/InGameServices.Models.csproj",
+        "packagesPath": "/home/carlos/.nuget/packages/",
+        "outputPath": "/home/carlos/Projects/InGameServices/InGameServices.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/carlos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/carlos/Projects/InGameServices/InGameServices.Data/InGameServices.Data.csproj": {
+                "projectPath": "/home/carlos/Projects/InGameServices/InGameServices.Data/InGameServices.Data.csproj"
+              },
+              "/home/carlos/Projects/InGameServices/InGameServices.Infrastructure/InGameServices.Infrastructure.csproj": {
+                "projectPath": "/home/carlos/Projects/InGameServices/InGameServices.Infrastructure/InGameServices.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

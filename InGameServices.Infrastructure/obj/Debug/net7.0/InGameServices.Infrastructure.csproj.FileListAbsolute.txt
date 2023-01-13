@@ -1,0 +1,12 @@
+/home/carlos/Projects/InGameServices/InGameServices.Infrastructure/bin/Debug/net7.0/InGameServices.Infrastructure.deps.json
+/home/carlos/Projects/InGameServices/InGameServices.Infrastructure/bin/Debug/net7.0/InGameServices.Infrastructure.dll
+/home/carlos/Projects/InGameServices/InGameServices.Infrastructure/bin/Debug/net7.0/InGameServices.Infrastructure.pdb
+/home/carlos/Projects/InGameServices/InGameServices.Infrastructure/obj/Debug/net7.0/InGameServices.Infrastructure.csproj.AssemblyReference.cache
+/home/carlos/Projects/InGameServices/InGameServices.Infrastructure/obj/Debug/net7.0/InGameServices.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/carlos/Projects/InGameServices/InGameServices.Infrastructure/obj/Debug/net7.0/InGameServices.Infrastructure.AssemblyInfoInputs.cache
+/home/carlos/Projects/InGameServices/InGameServices.Infrastructure/obj/Debug/net7.0/InGameServices.Infrastructure.AssemblyInfo.cs
+/home/carlos/Projects/InGameServices/InGameServices.Infrastructure/obj/Debug/net7.0/InGameServices.Infrastructure.csproj.CoreCompileInputs.cache
+/home/carlos/Projects/InGameServices/InGameServices.Infrastructure/obj/Debug/net7.0/InGameServices.Infrastructure.dll
+/home/carlos/Projects/InGameServices/InGameServices.Infrastructure/obj/Debug/net7.0/refint/InGameServices.Infrastructure.dll
+/home/carlos/Projects/InGameServices/InGameServices.Infrastructure/obj/Debug/net7.0/InGameServices.Infrastructure.pdb
+/home/carlos/Projects/InGameServices/InGameServices.Infrastructure/obj/Debug/net7.0/ref/InGameServices.Infrastructure.dll
