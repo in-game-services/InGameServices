@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+#nullable enable
 
 namespace InGameServices.Data.Entities
 {
@@ -20,13 +21,13 @@ namespace InGameServices.Data.Entities
         [Column("Id")]
         public Guid Id { get; set; } = Guid.NewGuid();
         [Column("FirstName")]
-        public string FirstName { get; set; }
+        public string? FirstName { get; set; }
         [Column("LastName")]
-        public string LastName { get; set; }
+        public string? LastName { get; set; }
         [Column("Email")]
-        public string Email { get; set; }
+        public string? Email { get; set; }
         [Column("Password")]
-        public string Password { get; set; }
+        public string? Password { get; set; }
         [Column("PictureUrl")]
         public string? PictureUrl { get; set; }
         [Column("Description")]

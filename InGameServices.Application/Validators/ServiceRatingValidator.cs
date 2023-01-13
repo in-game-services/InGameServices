@@ -29,7 +29,7 @@ namespace InGameServices.Application.Validators
 
         public async Task ValidateIfServiceExists(Guid serviceId)
         {
-            var service = _serviceRepository.GetById(serviceId);
+            var service = await _serviceRepository.GetById(serviceId);
             if (service is null)
             {
                 throw new ArgumentException("Service not found");
