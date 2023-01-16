@@ -1,9 +1,8 @@
 using InGameServices.Infrastructure.Messages.Common;
 
-namespace InGameServices.Models.User.Messages.Response
+namespace InGameServices.Models.User.Messages.Response;
+
+public class GetByIdUserResponse : BaseResponse
 {
-    public class GetByIdUserResponse : BaseResponse
-    {
-        public UserDto User { get; set; }
-    }
+  public UserDto User { get; set; }
 }

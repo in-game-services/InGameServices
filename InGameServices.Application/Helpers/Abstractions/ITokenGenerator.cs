@@ -1,9 +1,8 @@
 ﻿using InGameServices.Data.Entities;
 
-namespace InGameServices.Application.Helpers.Abstractions
+namespace InGameServices.Application.Helpers.Abstractions;
+
+public interface ITokenGenerator
 {
-    public interface ITokenGenerator
-    {
-        string Generate(User user);
-    }
+  string Generate(User user);
 }

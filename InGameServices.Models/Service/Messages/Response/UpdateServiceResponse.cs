@@ -1,9 +1,8 @@
 ﻿using InGameServices.Infrastructure.Messages.Common;
 
-namespace InGameServices.Models.Service.Messages.Response
+namespace InGameServices.Models.Service.Messages.Response;
+
+public class UpdateServiceResponse : BaseResponse
 {
-    public class UpdateServiceResponse : BaseResponse
-    {
-        public ServiceDto Service { get; set; }
-    }
+  public ServiceDto Service { get; set; }
 }

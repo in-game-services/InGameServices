@@ -1,9 +1,8 @@
-﻿namespace InGameServices.Infrastructure.Messages.Common
-{
-    public class BaseResponse
-    {
-        public bool Success { get; set; } = true;
+﻿namespace InGameServices.Infrastructure.Messages.Common;
+
 #nullable enable
-        public object? Errors { get; set; }
-    }
+public class BaseResponse
+{
+  public bool Success { get; set; } = true;
+  public object? Errors { get; set; }
 }

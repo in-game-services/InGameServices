@@ -6,8 +6,6 @@ using InGameServices.Data.Repositories;
 using InGameServices.Helpers;
 using InGameServices.Models.User.Messages.Request;
 using Xunit;
-using InGameServices.Models.Service.Messages.Request;
-using InGameServices.Models.Service.Messages.Response;
 using InGameServices.Application.Helpers.Abstractions;
 using InGameServices.Application.Helpers;
 using Microsoft.Extensions.Configuration;
